@@ -19,27 +19,28 @@ It allows users to add, view, complete, and delete tasks, and visualizes task pr
 
 
 ## Tech Stack
+ 
+ Frontend - React, React Router DOM 
+ 
+ UI Styling - Tailwind CSS 
 
- Category | Technologies Used 
- Frontend | React, React Router DOM 
- UI Styling | Tailwind CSS 
- Data Persistence | Local Storage 
- Visualization | Recharts 
- Utilities | UUID for unique task IDs 
+ Data Persistence - Local Storage
+ 
+ Visualization - Recharts
+ 
+ Utilities - UUID for unique task IDs 
  
 
 ## Installation
 
 1️⃣ Clone the repository
-```bash
+bash
 git clone https://github.com/tejsapkal/react-taskmanagement.git
 cd react-taskmanagement
 2️⃣ Install dependencies
 bash
-Copy code
 npm install
 3️⃣ Run the development server
 bash
-Copy code
 npm start
 Then open your browser at --- http://localhost:3000
