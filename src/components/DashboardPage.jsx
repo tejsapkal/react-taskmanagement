@@ -23,9 +23,9 @@ const Dashboard = () => {
 
   return (
     <div className="flex min-h-screen bg-gray-100">
-      <aside className="w-64 bg-gray-900 text-white p-6 space-y-6">
-        <h2 className="text-2xl font-bold text-center">🏠 Task Manager</h2>
-        <nav className="space-y-3">
+      <aside className="w-64 bg-gray-900 text-white p-6 space-y-8">
+        <h2 className="text-2xl font-bold text-center">🏠 Taskly</h2>
+        <nav className="space-y-6">
           <Link to="/add-task" className="block p-2 bg-gray-800 rounded">➕ Add Task</Link>
           <Link to="/task-list" className="block p-2 bg-gray-800 rounded">📋 Task List</Link>
         </nav>
